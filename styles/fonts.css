@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: Bold;
+    font-style: normal;
+    src: url('D:\Project\fonts\Montserrat\font\Montserrat-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: Medium;
+    font-style: normal;
+    src: url('D:\Project\fonts\Poppins\font\Poppins-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: Light;
+    font-style: normal;
+    src: url('D:\Project\fonts\Poppins\font\Poppins-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 'Semibold';
+    font-style: normal;
+    src: url('D:\Project\fonts\Poppins\font\Poppins-Semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 'Regular';
+    font-style: normal;
+    src: url('D:\Project\fonts\Poppins\font\Poppins-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 'Bold';
+    font-style: normal;
+    src: url('D:\Project\fonts\Poppins\font\Poppins-Bold.woff2') format('woff2');
+}
