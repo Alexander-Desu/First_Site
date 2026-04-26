@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "Montserrat", Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px 0 40px;
+    border-bottom: 1px solid silver;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+main .banner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("images/Banner_1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main .banner-content {
+    background-color: #fff3e3;
+    width: 750px;
+    margin-right: 2%;
+    margin-top: 10%;
+    padding: 70px 60px 40px 40px;
+    border-radius: 10px;
+}
+
+main .banner-content .newArrival {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 3px;
+}
+
+main .banner-content .discover {
+    line-height: 65px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 52px;
+    color: #B88E2F;
+}
+
+main .banner-content .loremBanner {
+    font-family: 'Poppins';
+    font-weight: medium;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+main .banner-content .btnBanner {
+    padding: 25px 75px;
+    background-color: #B88E2F;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+main .banner-content .btnBanner:hover {
+    text-decoration: underline;
+}
+
+main .container-browse {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-browse {
+    padding: 0px 0px 50px 0px;
+    line-height: 30px;
+}
+
+.container-browse .browse-title  {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.container-browse .browse-description {
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+.container-browse p {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 20px;
+    color: grey;
+}
+
+.browse-category {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.browse-category h3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.container-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-product .product-title {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.product-category {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0 110px;
+}
+
+.product-cart {
+    position: relative;
+}
+
+.product-cart .info {
+    padding: 10px 10px;
+    line-height: 30px;
+}
+
+
+.product-cart h5 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.product-cart p {
+    font-family: 'Poppins';
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.product-cart .current-span {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.product-cart .old-span {
+    font-family: 'Poppins';
+    font-weight: lighter;
+    margin-left: 20px;
+    color: gray;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    display: block;
+}
+
+.discount {
+    font-family: 'Poppins';
+    font-weight: medium;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: red;
+    padding: 10px 2px;
+    border-radius: 50%;
+}
+
+.new {
+    font-family: 'Poppins';
+    font-weight: medium;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: rgb(24, 194, 200);
+    padding: 10px 5px;
+    border-radius: 50%;
+}
+
+.product-cart-hover {
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    opacity: 80%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-link-container a {
+    text-decoration: none;
+}
+
+.hover-link-container a:hover {
+    text-decoration: underline;
+}
+
+.product-cart:hover .product-cart-hover {
+    visibility: visible;
+}
+
+.btnHover {
+    font-family: "Poppins";
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    color: #B88E2F;
+    cursor: pointer;
+}
+
+.product-cart-hover a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    opacity: 1;   
+}
+
+.product-cart-hover a img {
+    margin-right: 2px;
+}
+
+.btnMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnMore button {
+    padding: 10px 90px;
+    outline: none;
+    border: none;
+    border: 1px solid #B88E2F;
+    color: #B88E2F;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 160px 30px 70px;
+    border-top: 1px solid silver;
+    gap: 20px;
+}
+
+.address p {
+    color: gray;
+}
+
+.address ul {
+    list-style: none;
+}
+
+.address a {
+    display: flex;
+    padding: 25px 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.address a:hover {
+    text-decoration: underline;
+}
+
+.address input {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid silver;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.address .btnFooter {
+    margin-right: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.underline {
+    border-top: 1px solid silver;
+    padding: 0 160px 0 70px;
+}
+
+.underline span {
+    padding: 0 160px 30px 0px;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 16px;
+}
